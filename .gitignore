@@ -1,0 +1,22 @@
+ni .gitignore -Force -Value @"
+id_ed25519.pub
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Venv
+.venv/
+venv/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Env/секреты
+.env
+.env.*
+"@
